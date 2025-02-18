@@ -38,13 +38,11 @@ function validateForm() {
   const firstName = document.getElementById('first-name').value.trim();
   const lastName = document.getElementById('last-name').value.trim();
 
-  // Перевірка імені
   if (firstName.length < 2) {
     alert('O nome deve ter pelo menos 2 caracteres.');
     return false;
   }
 
-  // Перевірка прізвища
   if (lastName.length < 2) {
     alert('O sobrenome deve ter pelo menos 2 caracteres.');
     return false;
